@@ -124,7 +124,7 @@ class Program
                 AddStoryText("JÁ JSEM KRÁL GOBLINŮ A ZDE ZHEBNEŠ...");
                 AddStoryText("Finální boj začal...");
             }
-            else if (currentEnemyIndex == 2) // Goblin King defeated - add ending here
+            else if (currentEnemyIndex == 2) 
             {
                 ClearLog();
                 AddStoryText("Jak Goblin King je velmi raněný, ztratil sílu, aby se bránil...");
@@ -139,7 +139,7 @@ class Program
 
                 DisableButtons();
                 UpdateStatus();
-                return; // end game here
+                return; 
             }
 
             currentEnemyIndex++;
